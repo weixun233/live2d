@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>周飞雄个人站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/common.min.css">
+    <link rel="stylesheet" href="/live2d/css/live2d.css" />
+</head>
+<body>
+<!--header-->
+<header class="header" id="page1">
+    <div class="header_cont">
+        <div class="right_menu">
+            <div class="logo">
+                <img src="img/xf_logo.png" alt="">
+            </div>
+            <ul class="index_nav clearfix">
+                <li class="active">
+                    <a href="#page1">
+                        <em>首页</em>
+                        <p>HOME</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="list.html">
+                        <em>案例</em>
+                        <p>WORKS</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#page3">
+                        <em>关于</em>
+                        <p>ABOUT</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4">
+                        <em>联系</em>
+                        <p>CONTACT</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="header_weixi">
+                <img src="img/mycode.jpg" alt="">
+            </div>
+        </div>
+        <div class="hea_cent_icon"></div>
+    </div>
+</header>
+<!--作品-->
+<section class="works_box" id="page2">
+    <h2 class="in_title">
+        <img src="img/index_bt1.png" alt="">
+    </h2>
+    <ul class="works_inner"></ul>
+</section>
+<!--关于-->
+<section class="about_box" id="page3">
+    <h2 class="in_title">
+        <img src="img/index_bt2.png" alt="">
+    </h2>
+    <div class="about_cont clearfix">
+        <div class="about_left">
+            <div class="about_left_inner">
+                <h3>周飞雄</h3>
+                <p>
+                    <i class="icon"></i>
+                </p>
+                <div class="abstract">
+                    <p>1年的移动、pc端大小项目开发经验</p>
+                    <p>职业规划倾向于： 前端 / JS全栈</p>
+                    <p>PC/移动端网站/组件/webapp等开发经验丰富，代码标签化语义化、简洁、明了、无后患</p>
+                    <p>对其他编程技术如Vue、ES6、Canvas、node、APICloud以及微信"小程序"等感兴趣</p>
+                    <p>Vue技术栈: Vue全家桶 + ES6 + SASS + webpack 快速搭建前端项目</p>
+                    <p>熟练使用IE、chrome、 firefox 、Opera等主流浏览器的debug工具；对用户体验、交互操作流程、及用户需求有一定了解</p>
+                    <p>兼容IE系列/360/火狐/谷歌版本浏览器</p>
+                </div>
+            </div>
+        </div>
+        <div class="about_right">
+            <img src="img/big_logo.png" alt="">
+        </div>
+    </div>
+</section>
+<!--联系-->
+<section class="contact_box" id="page4">
+    <h2 class="title">
+        <img src="img/index_bt3.png" alt="">
+    </h2>
+    <div class="contact_cont clearfix">
+        <div class="contact_left">
+            <i class="icon"></i>
+            <div class="contact_info">
+                <p>QQ：1712690274</p>
+                <p>手机：15089214993</p>
+                <p>邮箱：1712690274@qq.com</p>
+                <p>网址：<a href="http://www.zfeixiong.top/index.html">www.zfeixiong.top</a></p>
+                <p>Github：<a href="https://github.com/weixun233/2017" target="_blank">github.com/weixun233/2017</a></p>
+                <p>
+                    地址：中国&nbsp;广东省&nbsp;惠州市&nbsp;
+                    <i class="site_icon"></i>
+                </p>
+            </div>
+        </div>
+        <div class="contact_right">
+            <img src="img/mycode.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer class="footer">
+    <p>© 2017-2020 http://www.zfeixiong.top 版权所有</p>
+    <a href="#"></a>
+</footer>
+<!--返回top-->
+<a class="fh_top" href="#">TOP</a>
+<div id="landlord">
+  <div class="message" style="opacity:0"></div>
+  <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/common.min.js"></script>
+<script type="text/javascript">
+  var message_Path = '/live2d/'
+  var home_Path = 'https://weixun233.github.io/live2d/'  //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="/live2d/js/message.js"></script>
+<script type="text/javascript">
+  loadlive2d("live2d", "/live2d/model/tia/model.json");
+</script>
+</body>
+</html>
